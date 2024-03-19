@@ -2,8 +2,3 @@ namespace: fleet-mc-helm-oci-example
 helm:
   chart: oci://dp.apps.rancher.io/charts/jaeger-operator
   version: 2.50.1
-targetCustomizations:
-- name: downstream1-cluster
-  clusterSelector:
-    matchLabels:
-      name: downstream1
