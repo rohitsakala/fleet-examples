@@ -1,3 +1,6 @@
 helm:
   chart: oci://dp.apps.rancher.io/charts/jaeger-operator
   version: 2.50.1
+  values:
+    image.imagePullSecrets:
+      - name: appsregistryauth
