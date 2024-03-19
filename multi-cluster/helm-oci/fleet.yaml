@@ -4,5 +4,4 @@ helm:
   values:
     image:
       tag: 1.54.0
-      imagePullSecrets:
-        - appsregistryauth
+      imagePullSecrets: appsregistryauth
