@@ -3,11 +3,6 @@ helm:
   chart: oci://dp.apps.rancher.io/charts/jaeger-operator
   version: 2.50.1
 targetCustomizations:
-- name: local-cluster
-  clusterSelector:
-    matchLabels:
-      name: local
-
 - name: downstream1-cluster
   clusterSelector:
     matchLabels:
